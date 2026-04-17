@@ -1,0 +1,82 @@
+.top-bar {
+    display: flex;
+    align-items: center;
+    background-color: #2E4057;
+    height: 60px;
+    box-sizing: border-box;
+  }
+  
+  .menu-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .profile-button{
+    border: none;
+    width: 200px;
+    height: 50px; 
+    padding-left: 20px;
+    border-radius: 50px;
+    background-color: #048BA8;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .username {
+    font-weight: bold;
+    width: 150px;
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .search-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    gap:0;
+  }
+  
+  .search-input {
+    width: 80%;
+    max-width: 500px;
+    padding: 8px 15px;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid #d1d7db;
+    background-color: #ffffff;
+  }
+
+.search-button {
+    background-color: #048BA8; 
+    color: white;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    padding: 8px 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+
+  .search-input:focus {
+      outline: none;
+      border-color: #048BA8;
+  }
+  
+  .top-bar-actions button ,.Sidebar-button{
+    margin-left: 10px;
+    padding: 8px 8px;
+    background-color: #048BA8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .top-bar-actions button:hover, .profile-button:hover ,.Sidebar-button:hover ,.search-button:hover{
+    background-color: #04b1d8 ;
+  }

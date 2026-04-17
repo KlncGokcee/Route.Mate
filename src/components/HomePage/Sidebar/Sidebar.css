@@ -1,0 +1,73 @@
+.sidebar {
+    max-width: 300px;
+    background-color: #3F5878;
+    border-right: 1px solid #2A3B50;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .sidebar-header {
+    padding: 10px 15px;
+    background-color: #3F5878;
+    border-bottom: 1px solid #2A3B50;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .friend-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.addfriend-button, .notification-button {
+  padding: 8px 8px;
+  background-color: #048BA8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.addfriend-button:hover, .notification-button:hover {
+  background-color: #04b1d8;
+}
+   
+  .list-section {
+    padding: 10px 0;
+    overflow-y: auto;
+    flex-grow: 1;
+  }
+  
+  .list-section h2 {
+    font-size: 0.9rem;
+    color: #b9b9b9;
+    padding: 5px 15px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  .list-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list-section li {
+    padding: 12px 15px;
+    cursor: pointer;
+    color: white;
+    border-bottom: 1px solid #2A3B50; 
+    display: flex;
+    align-items: center;
+  }
+  
+  .list-section li:hover {
+    background-color: #04b1d8;
+  }
+  .list-section li:last-child {
+      border-bottom: none;
+  }
